@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootswatch css -->
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	<style>
+		body {
+			padding-top: 5rem;
+		}
+		.starter-template {
+			padding: 3rem 1.5rem;
+		}
+	</style>
+
+	<title>COAD</title>
+</head>
+
+<body>
+<div class="container-fluid" style="max-width:900px;margin-left:auto;margin-right:auto;">
+	<div class="row">
+		<h4 class="display-4" style="text-align:center;">Transfer-AD: Transferable Visual Anomaly Detection in Manufacturing Changeover Process</h4><br>
+	</div>
+
+	<br>
+<!-- 	<div class="row justify-content-md-center">
+		<div class="col-md-12 text-center">
+			<h3 class="display-5" style="color: gray">Anonymous submitted to CVPR 2023</h3>
+		</div>
+	</div> -->
+	<br>
+	<div class="row">
+		<img src="imgs/data_example1.png" class="img-responsive" alt="overview" style="width: 100%; padding: 15px"><br>
+		<div class="col">
+			<h3 style="text-align: left;">
+				Abstract
+			</h3>
+			<p class="text-justify">
+			Changeover in manufacturing refers to the process of converting a line or machine from processing one product to another. Since the equipment has not been completely fine- tuned after the starting of the production line, changeover frequently results in unsatisfactory anomaly detection (AD) performance. Thus, there is a strong need to enhance abilities for anomaly detection by using only a limited number of samples in target category. To overcome this problem, we convert it as heterogeneous domain adaptation task and propose an simple but effective feature augmentation (termed as HFA) method. In specific, we fully utilize the source normal samples by introducing two projection matrices to transform the feature space of source domain and target domain into one common space, in which the similarity of different feature spaces can be measured. Furthermore, we propose a novel feature mapping function for target domain, which not only augment the feature into target category's memory bank but also preserve the semantic consistency between heterogeneous domain. HFA is easy to implement and seamlessly incorporated into the sota feature-embedding anomaly detection methods, e.g., PatchCore. Comprehensive experiments on four cross-domain visual anomaly datasets clearly demonstrates the effectiveness of HFA.
+			</p>
+		</div>
+	</div>
+<!-- 	<div class="row justify-content-md-center" id="data"> -->
+	<div class="row">
+		<div class="col">
+			<h3 style="text-align: left;">
+				Data
+			</h3>
+			<div>
+				We provide data for each of the 7 scenarios in the dataset:
+				<ul>
+					<li>
+						Electrical Insulator <a href="https://drive.google.com/file/d/10Ufs33IkcjADqWUNzUZGPq9oggslvnEi/view?usp=sharing" style="color:#007bff;">【Google Drive】</a>
+						<a href="https://pan.baidu.com/s/1YG0ZlWE4KP4aH5aZdTqvNA?pwd=nf6p" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+					<li>
+						Metal Welding <a href="https://drive.google.com/drive/folders/1APUXBPsvrBcY0Ewn2mS1ZBhInTqpkXtB?usp=sharing" style="color:#007bff;">【Google Drive】</a>
+						<a href="https://pan.baidu.com/s/1WEjadxIYIZbYyYSpbbmRHA?pwd=eu3d" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+          <li>
+						Photovoltaic <a href="https://drive.google.com/drive/folders/118iRLwhzc-OYsr_y8A9Z99N7CvlpPWni?usp=share_link" style="color:#007bff;">【Google Drive】</a>
+		  				<a href="https://pan.baidu.com/s/10Yo2SF4Fx5aBhDAgs3obQg?pwd=dpsk" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+          <li>
+						Wind Turbine <a href="https://drive.google.com/file/d/1R1Dt3dDvjYHt3Iz4fbk17rfzsw0FQdHo/view?usp=share_link" style="color:#007bff;">【Google Drive】</a>
+		  				<a href="https://pan.baidu.com/s/1JyYQ3eDpflyGqraTQsPibQ?pwd=8iqu" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+          <li>
+						Catenary Dropper <a href="https://drive.google.com/file/d/18u73oMWV73-oHThnbtY0_c5p1PudJB78/view?usp=sharing" style="color:#007bff;">【Google Drive】</a>
+		  				<a href="https://pan.baidu.com/s/1htRNri0Rd62CRRpMZalINQ?pwd=c6v6" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+          <li>
+						Nut and Bolt <a href="https://drive.google.com/file/d/10XeAZ879_T393DIQnSniJNoHpD-n6yXq/view?usp=sharing" style="color:#007bff;">【Google Drive】</a>
+		  				<a href="https://pan.baidu.com/s/1vheN9SAETx5ooS6W-Br_1A?pwd=ifr2" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+          <li>
+						Witness Mark <a href="https://drive.google.com/drive/folders/1QLRVvdiSUDEJdJ_XYY_l7Hqv8FavVoOW?usp=share_link" style="color:#007bff;">【Google Drive】</a>
+		  				<a href="https://pan.baidu.com/s/1qcrmKFpz6b2wFeyOuekrJA?pwd=v4xu" style="color:#007bff;">【Baidu Drive】</a>.
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<h3 style="text-align: left;">
+				PLEASE NOTE: LICENSE TERMS & ATTRIBUTION
+			</h3>
+			<p class="text-justify">
+				The data is released under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> (CC BY-NC-SA 4.0).
+
+                                In particular, it is not allowed to use the dataset for commercial purposes. If you are unsure whether or not your application violates the non-commercial use clause of the license, please contact us.
+			</p>
+		</div>
+	</div>
+<!-- 	</div> -->
+	
+	<br>
+</body>
+</html>
